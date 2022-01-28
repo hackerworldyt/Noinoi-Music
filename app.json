@@ -9,7 +9,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/BAZIGARXD",
-    "repository": "https://github.com/HYKO-XD/NOINOI-MUSIC",
+    "repository": "https://github.com/hackerworldyt/NOINOI-MUSIC",
     "success_url": "https://t.me/BAZIGARYT",
     "env": {
         "API_ID": {
