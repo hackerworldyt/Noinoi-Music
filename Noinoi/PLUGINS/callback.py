@@ -25,11 +25,11 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/BAZIGARYT"),
+                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://T.ME/iamhackerworld"),
                 InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{UPDATES_CHANNEL}"),],
                 [InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
                 InlineKeyboardButton("❓ ꜱᴇᴛᴜᴘ", callback_data="cbsetup"),],
-                [InlineKeyboardButton(" ᴀᴅᴅ ᴍᴇᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)],
+                [InlineKeyboardButton(" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)],
             ]
         ),
         disable_web_page_preview=True,
@@ -41,7 +41,7 @@ async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""❓ **Basic Guide for using this bot:**
         
-⊙ https://telegra.ph/file/a671532c23687e6fcc431.mp4
+⊙ https://telegra.ph/file/70a504ccec6266f296fe1.mp4
 
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
@@ -54,7 +54,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙ ᴀ ᴄ ᴋ", callback_data="cbstart")]]
         ),
@@ -68,7 +68,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ ʙᴏᴛ** """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -97,7 +97,7 @@ async def cbbasic(_, query: CallbackQuery):
 ➯ /uptime - show the bot uptime status
 ➯ /alive - show the bot alive info (in group)
 
- **✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+ **✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -120,7 +120,7 @@ async def cbadmin(_, query: CallbackQuery):
 ➯ /userbotjoin - invite the userbot to join group
 ➯ /userbotleave - order userbot to leave from group
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -138,7 +138,7 @@ async def cbsudo(_, query: CallbackQuery):
 ➯ /restart - restart your bot
 ➯ /leaveall - order userbot to leave from all group
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -179,16 +179,16 @@ async def cbsetup(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**Hello !**
 » **press the button below to read the explanation and see the help commands !**
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ**""",
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("welcome", callback_data="noiwel"),
-                    InlineKeyboardButton("Lyric", callback_data="noilyric"),
-                    InlineKeyboardButton("voice", callback_data="noivoice"),
+                    InlineKeyboardButton("ᴡᴇʟᴄᴏᴍᴇ", callback_data="noiwel"),
+                    InlineKeyboardButton("𝕃𝕐ℝ𝕀ℂ𝕊", callback_data="noilyric"),
+                    InlineKeyboardButton("𝗩𝗢𝗜𝗖𝗘", callback_data="noivoice"),
                 ],
                 [
-                    InlineKeyboardButton("How To Add Me ❓", callback_data="cbhowtouse"),
+                    InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴀᴅᴅ ᴍᴇ ❓", callback_data="cbhowtouse"),
                 ],
                 [InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")],
             ]
@@ -197,13 +197,13 @@ async def cbsetup(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("noiwel"))
 async def noiwel(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 **HEAR THE WELCOME PLUGIN ( soon )**
+        f"""🏮 **HEAR THE WELCOME PLUGIN **
 
 ➯ /setwelcome for set welcome message.
 
 ➯ /resetwelcome for reset welcome message.
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
@@ -211,11 +211,11 @@ async def noiwel(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("noilyric"))
 async def noilyric(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""🏮 **HEAR THE LYRIC PLUGIN**
+        f"""🏮 **HEAR THE LYRICS PLUGIN**
 
 ➯ /lyric ( song name ) for the get lyric of song
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
@@ -228,7 +228,7 @@ async def noivoice(_, query: CallbackQuery):
 
 ➯ /tts fot get voice from text message
 
-**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
+**✨ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴡ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbsetup")]]
         ),
