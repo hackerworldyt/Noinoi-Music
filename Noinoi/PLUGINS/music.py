@@ -49,7 +49,7 @@ async def play(c: Client, m: Message):
             [
                 InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/CFC_BOT_SUPPORT"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/BAZIGARXD"),
+                    "• ᴏᴡɴᴇʀ", url=f"https://t.me/iamhackerworld"),
             ]
         ]
     )
@@ -134,7 +134,7 @@ async def play(c: Client, m: Message):
                 )
             else:
              try:
-                await suhu.edit("🔄 **Connecting to vc...**")
+                await suhu.edit("🔄 ᴊᴏɪɴɪɴɢ ᴛᴏ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...")
                 await call_py.join_group_call(
                     chat_id,
                     AudioPiped(
@@ -192,7 +192,7 @@ async def play(c: Client, m: Message):
                             )
                         else:
                             try:
-                                await suhu.edit("🔄 **Connecting to vc...**")
+                                await suhu.edit("🔄 ᴊᴏɪɴɪɴɢ ᴛᴏ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioPiped(
@@ -251,7 +251,7 @@ async def play(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await suhu.edit("🔄 **Connecting to vc...**")
+                            await suhu.edit("🔄 ᴊᴏɪɴɪɴɢ ᴛᴏ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ...")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioPiped(
